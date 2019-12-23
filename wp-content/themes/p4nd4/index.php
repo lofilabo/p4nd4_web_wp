@@ -86,7 +86,7 @@ endif;
 
 
 
-		<div class= 'narrow-page-container'>
+		<div class= 'col-md-8'>
             		<h2>  
 			<?php echo( $current_post->post_title ); ?>
 			</h2>
@@ -95,6 +95,7 @@ endif;
 	    		</p>
             		
 			<div class="line"></div>
+		
 			<h6>
 <?php
   echo( "ID : " . $current_post->ID . "<br/>" );
